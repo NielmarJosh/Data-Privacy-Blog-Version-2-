@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="wikipedia.html">Data Privacy & Cybersecurity</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to My Blog!</h2>
+        <p>This blog shares insights on data privacy and cybersecurity from a student's perspective. Explore my posts and learn more!</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Blog</p>
+    </footer>
+</body>
+</html>
+
+---------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Student Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="wikipedia.html">Data Privacy & Cybersecurity</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Latest Blog Posts</h2>
+        <article>
+            <h3>Understanding Cybersecurity Basics</h3>
+            <p>In today's digital age, understanding the basics of cybersecurity is essential for students. This post discusses fundamental concepts and why they matter.</p>
+        </article>
+        <article>
+            <h3>The Importance of Data Privacy</h3>
+            <p>Data privacy is a growing concern for students. This article explores the significance of protecting personal information online.</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Blog</p>
+    </footer>
+</body>
+</html>
+
+-----------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Privacy & Cybersecurity - Student Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="wikipedia.html">Data Privacy & Cybersecurity</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Data Privacy and Cybersecurity</h2>
+        <p>As a student navigating the digital landscape, understanding data privacy and cybersecurity is crucial. With the increasing reliance on technology for education and social interaction, students must be aware of the risks and responsibilities associated with their online presence.</p>
+        
+        <h3>What is Data Privacy?</h3>
+        <p>Data privacy refers to the proper handling, processing, storage, and usage of personal information. As students, we often share personal data online, whether through social media, educational platforms, or online shopping. It is essential to understand how this information is used and protected.</p>
+        
+        <h3>Why is Cybersecurity Important?</h3>
+        <p>Cybersecurity involves protecting systems, networks, and programs from digital attacks. For students, this means safeguarding personal information from breaches, identity theft, and other cyber threats. Learning about strong passwords, secure connections, and recognizing phishing attempts are critical skills.</p>
+        
+        <h3>
+
+-----------------------------------------------------------------------------------------------
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #35424a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
